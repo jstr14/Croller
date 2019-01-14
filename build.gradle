@@ -10,7 +10,18 @@ buildscript {
         classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
         classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
         // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
+        // in the individual module build.gradle files ::
+        /**
+         * Lösa lån till HB
+         * A. De har ingen borgenär (2-3 månader)
+         * B. Fler möjligheter? Ser svårt ut...
+         * --> Se med Länsförsäkringar?
+         * --> Förhandlat bort 20k kr
+         * --> Hitta nya lösningar. Risk att man får gå tbx till LF och kostar stört mycket.
+         * --> Borgenär. Risk. Om allt går åt helvete... Faller med en miljon tex..!?
+         * --> Borde få 4.8 miljoner lågt räknat.
+         * -->
+         */
     }
 }
 
