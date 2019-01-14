@@ -17,9 +17,9 @@ ext {
 
     libraryVersion = '1.0.7'
 
-    developerId = 'harjot-oberai'
-    developerName = 'Harjot Singh Oberai'
-    developerEmail = 'harjot.oberai@gmail.com'
+    developerId = 'Lundez'
+    developerName = 'Hampus Londögård'
+    developerEmail = 'hampus.londogard@gmail.com'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
@@ -29,12 +29,12 @@ ext {
 version = '1.0.1'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 28
     buildToolsVersion '28.0.3'
 
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 27
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
     }
@@ -49,7 +49,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'junit:junit:4.12'
-    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
 }
 
 //apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
