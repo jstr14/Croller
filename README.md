@@ -7,7 +7,16 @@
 Just add the following dependency in your app's `build.gradle`
 ```groovy
 dependencies {
-      compile 'com.sdsmdg.harjot:croller:1.0.7'
+      implementation 'com.github.Lundez:Croller:1.0.3'
+}
+```
+
+Don't forget o add in the other `build.gradle`:
+```groovy
+allprojects {
+    repositories {
+	maven { url "https://jitpack.io" }
+    }
 }
 ```
 
