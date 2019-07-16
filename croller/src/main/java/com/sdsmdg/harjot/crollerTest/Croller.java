@@ -128,17 +128,12 @@ public class Croller extends View {
         linePaint.setAntiAlias(true);
         linePaint.setStrokeWidth(indicatorWidth);
 
-        if (isEnabled) {
-            circlePaint2.setColor(progressPrimaryColor);
-            circlePaint.setColor(progressSecondaryColor);
-            linePaint.setColor(indicatorColor);
-            textPaint.setColor(labelColor);
-        } else {
-            circlePaint2.setColor(progressPrimaryDisabledColor);
-            circlePaint.setColor(progressSecondaryDisabledColor);
-            linePaint.setColor(indicatorDisabledColor);
-            textPaint.setColor(labelDisabledColor);
-        }
+
+        circlePaint2.setColor(progressPrimaryColor);
+        circlePaint.setColor(progressSecondaryColor);
+        linePaint.setColor(indicatorColor);
+        textPaint.setColor(labelColor);
+
 
         oval = new RectF();
 
@@ -359,7 +354,7 @@ public class Croller extends View {
             else
                 circlePaint.setColor(mainCircleDisabledColor);
             canvas.drawCircle(midx, midy, mainCircleRadius, circlePaint);
-            canvas.drawText(label, midx, midy + (float) (radius * 1.1)-textPaint.getFontMetrics().descent, textPaint);
+            canvas.drawText(label, midx, midy + (float) (radius * 1.1) - textPaint.getFontMetrics().descent, textPaint);
             canvas.drawLine(x1, y1, x2, y2, linePaint);
 
         } else {
@@ -421,7 +416,7 @@ public class Croller extends View {
             else
                 circlePaint.setColor(mainCircleDisabledColor);
             canvas.drawCircle(midx, midy, mainCircleRadius, circlePaint);
-            canvas.drawText(label, midx, midy + (float) (radius * 1.1)-textPaint.getFontMetrics().descent, textPaint);
+            canvas.drawText(label, midx, midy + (float) (radius * 1.1) - textPaint.getFontMetrics().descent, textPaint);
             canvas.drawLine(x1, y1, x2, y2, linePaint);
         }
     }
